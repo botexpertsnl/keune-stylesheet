@@ -2,7 +2,7 @@
 .vfrc-system-response--actions .vfrc-button {
   background-color: #F9F5EE !important;
   border-color: #F9F5EE !important;
-  color: #000 !important; /* zwarte tekst zodat het leesbaar blijft */
+  color: #F1F2F2 !important; /* zwarte tekst zodat het leesbaar blijft */
 }
 
 /* Optioneel: hover-effect */
