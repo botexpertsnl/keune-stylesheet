@@ -11,3 +11,11 @@
   border-color: #e8e3dc !important;
 }
 /* CLOSE - Reponse buttons */
+
+
+
+/* OPEN -  Zorg dat afbeeldingen zich aanpassen in plaats van afgesneden worden */
+.vfrc-carousel img {
+  object-fit: contain !important;
+}
+/* CLOSE - Afbeelding formaat */
