@@ -13,9 +13,8 @@
 /* CLOSE - Reponse buttons */
 
 
-/* OPEN - Zorg dat afbeeldingen 10% ingezoomd worden */
-.vfrc-carousel img {
-  transform: scale(1.1);          /* zoom 10% in */
-  transform-origin: center;       /* zoom vanuit het midden */
-}
-/* CLOSE - Afbeelding zoom */
+/* OPEN - Zorg dat afbeeldingen zich aanpassen in plaats van afgesneden worden */ 
+.vfrc-carousel img { object-fit: contain !important; 
+} 
+
+/* CLOSE - Afbeelding formaat */
