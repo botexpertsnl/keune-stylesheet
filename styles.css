@@ -35,11 +35,3 @@
 }
 /* CLOSE - VRF LAUNCHER */
 
-
-/* OPEN - FONT OVERRIDE */
-@import url("https://use.typekit.net/jhc2ptd.css");
-
-:host {
-  --fonts-default: 'acumin-pro', sans-serif;
-}
-/* CLOSE - FONT OVERRIDE */
