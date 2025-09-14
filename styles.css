@@ -16,5 +16,11 @@
 /* OPEN - Zorg dat afbeeldingen zich aanpassen in plaats van afgesneden worden */ 
 .vfrc-carousel img { object-fit: contain !important; 
 } 
-
 /* CLOSE - Afbeelding formaat */
+
+
+/* OPEN - HEADER COLOR */
+.vfrc-header {
+  background-color: #000000 !important;
+}
+/* CLOSE - HEADER */
