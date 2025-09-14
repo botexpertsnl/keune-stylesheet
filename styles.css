@@ -24,3 +24,11 @@
   background-color: #000000 !important;
 }
 /* CLOSE - HEADER */
+
+/* OPEN - VRF LAUNCHER */
+.vfrc-launcher {
+  background: #000000 !important;
+  color: #ffffff !important; /* icoon/tekst wit */
+  border: 2px solid #ffffff !important; /* witte rand */
+}
+/* CLOSE - VRF LAUNCHER */ */
