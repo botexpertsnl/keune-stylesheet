@@ -14,7 +14,8 @@
 
 
 /* OPEN - Zorg dat afbeeldingen zich aanpassen in plaats van afgesneden worden */ 
-.vfrc-carousel img { object-fit: contain !important; 
+.vfrc-carousel img { 
+  object-fit: contain !important; 
 } 
 /* CLOSE - Afbeelding formaat */
 
@@ -25,10 +26,20 @@
 }
 /* CLOSE - HEADER */
 
+
 /* OPEN - VRF LAUNCHER */
 .vfrc-launcher {
   background: #000000 !important;
   color: #ffffff !important; /* icoon/tekst wit */
   border: 2px solid #ffffff !important; /* witte rand */
 }
-/* CLOSE - VRF LAUNCHER */ */
+/* CLOSE - VRF LAUNCHER */
+
+
+/* OPEN - FONT OVERRIDE */
+@import url("https://use.typekit.net/jhc2ptd.css");
+
+:host {
+  --fonts-default: 'acumin-pro', sans-serif;
+}
+/* CLOSE - FONT OVERRIDE */
