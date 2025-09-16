@@ -38,19 +38,24 @@
 
 
 /* OPEN - Change header text */
-.vfrc-header .fptyqm0::after {
-  content: "Keune Haircosmetics";
-}
 .vfrc-header .fptyqm0 {
-  visibility: hidden;
-  position: relative;
-}
-.vfrc-header .fptyqm0::after {
-  visibility: visible;
-  position: absolute;
-  top: 0;
-  left: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
 
+/* verberg de originele tekst, maar behoud ruimte */
+.vfrc-header .fptyqm0 {
+  font-size: 0 !important;
+}
+
+/* zet nieuwe tekst inline */
+.vfrc-header .fptyqm0::after {
+  content: "Keune Haircosmetics";
+  font-size: 18px;        /* zelfde als origineel */
+  font-weight: bold;      /* of inherit */
+  color: #fff;            /* wit */
+}
 /* CLOSE - header text */
+
 
