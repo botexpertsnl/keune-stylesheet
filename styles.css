@@ -38,21 +38,19 @@
 
 
 /* OPEN - Change header text */
-.vfrc-header .fptyqm0 {
-  font-size: 18px !important;
-  font-weight: bold !important;
-  color: #000 !important;
-  visibility: hidden; /* hide original text */
-  position: relative;
-}
-
-/* Inject replacement header text */
 .vfrc-header .fptyqm0::after {
   content: "Keune Haircosmetics";
+}
+.vfrc-header .fptyqm0 {
+  visibility: hidden;
+  position: relative;
+}
+.vfrc-header .fptyqm0::after {
   visibility: visible;
   position: absolute;
   top: 0;
   left: 0;
-  color: #000; /* set desired color */
 }
-/* Close - header text */
+
+/* CLOSE - header text */
+
