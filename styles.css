@@ -36,26 +36,24 @@
 /* CLOSE - VRF LAUNCHER */
 
 
-
 /* OPEN - Change header text */
+
+/* verberg originele tekst maar behoudt de ruimte */
 .vfrc-header .fptyqm0 {
-  font-size: inherit;
-  font-weight: inherit;
-  color: inherit;
+  color: transparent !important;
+  position: relative;
 }
 
-/* verberg de originele tekst, maar behoud ruimte */
-.vfrc-header .fptyqm0 {
-  font-size: 0 !important;
-}
-
-/* zet nieuwe tekst inline */
+/* zet nieuwe tekst inline, blijft netjes gecentreerd */
 .vfrc-header .fptyqm0::after {
   content: "Keune Haircosmetics";
-  font-size: 18px;        /* zelfde als origineel */
-  font-weight: bold;      /* of inherit */
-  color: #fff;            /* wit */
+  color: #fff;          /* wit */
+  font-size: inherit;   /* neem font over van widget */
+  font-weight: inherit; /* neem gewicht over van widget */
 }
+
 /* CLOSE - header text */
+
+
 
 
