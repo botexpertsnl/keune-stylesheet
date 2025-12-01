@@ -1,0 +1,50 @@
+/* ============================================
+   GLOBAL FONT: Inter for entire Voiceflow UI
+   ============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.vfrc,
+.vfrc * {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+               "Apple Color Emoji", "Segoe UI Emoji" !important;
+}
+
+/* ============================================
+   RESPONSE BUTTONS (quick replies / opties)
+   ============================================ */
+.vfrc-system-response--actions .vfrc-button {
+  background-color: #F4F4F4 !important;
+  border-color: #F4F4F4 !important;
+  color: #868a91 !important;
+}
+
+.vfrc-system-response--actions .vfrc-button:hover {
+  background-color: #E0E0E0 !important;
+  border-color: #E0E0E0 !important;
+}
+
+/* ============================================
+   CAROUSEL IMAGES
+   ============================================ */
+.vfrc-carousel img { 
+  object-fit: contain !important; 
+}
+
+/* ============================================
+   CUSTOM HEADER COLOR
+   ============================================ */
+.vfrc-header {
+  background-color: #000000 !important;
+}
+
+/* ============================================
+   DEFAULT VOICEFLOW LAUNCHER VERBERGEN
+   (deze zit WEL in de iframe, dus dit werkt)
+   ============================================ */
+.vfrc-launcher {
+  display: none !important;
+}
+
+/* (GEEN #vf-custom-launcher meer hier,
+   want deze knop leeft in de outer page, 
+   niet in de iframe van Voiceflow) */
